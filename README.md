@@ -4,7 +4,7 @@ README:
 
 [![Python](https://img.shields.io/badge/Python-3.13.1-3776AB.svg?style=flat&logo=python&logoColor=white)](https://www.python.org)
 
-A simple Python script that scans an input text file for specific words and replaces them with predefined alternatives.
+A Python script that scans an input text file for specific words and replaces them with predefined alternatives.
 
 ## Getting Started
 
@@ -22,15 +22,14 @@ cd redactor
 - Value: the replacement word that will appear instead
 - Example:
 
-python
+```python
 WORDS_TO_REDACT = {
 'secret': 's',
 'sEcRET2': 'S2'
 }
-
 # 'secret' will be replaced with 's'
-
 # 'SECRET2' or 'secret2' or 'sEcRET2' will be replaced with 'S2'
+```
 
 **NOTE:** This script performs case-insensitive matching - it will find the target word regardless of whether its letters are uppercase, lowercase, or mixed.
 
