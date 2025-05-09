@@ -1,6 +1,6 @@
 README:
 
-# Redactor
+# Text Redactor
 
 [![Python](https://img.shields.io/badge/Python-3.13.1-3776AB.svg?style=flat&logo=python&logoColor=white)](https://www.python.org)
 
@@ -12,9 +12,10 @@ A Python script that scans an input text file for specific words and replaces th
 
 #### 2. Clone the repo and navigate into the folder
 
-powershell
+```powershell
 git clone https://github.com/yourusername/redactor.git
 cd redactor
+```
 
 #### 3. Define Your Redaction Rules
 
@@ -43,7 +44,8 @@ WORDS_TO_REDACT = {
 - Paste/type the text you'd like to redact into 'input.txt'
 - Run the script
 
-powershell
+```powershell
 python redactor.py
+```
 
 - The redacted output will be saved to the file output.txt in the same directory
