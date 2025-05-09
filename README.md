@@ -23,14 +23,14 @@ cd redactor
 - Value: the replacement word that will appear instead
 - Example:
 
-```python
-WORDS_TO_REDACT = {
-'secret': 's',
-'sEcRET2': 'S2'
-}
-# 'secret' will be replaced with 's'
-# 'SECRET2' or 'secret2' or 'sEcRET2' will be replaced with 'S2'
-```
+  ```python
+  WORDS_TO_REDACT = {
+  'secret': 's',
+  'sEcRET2': 'S2'
+  }
+  # 'secret' will be replaced with 's'
+  # 'SECRET2' or 'secret2' or 'sEcRET2' will be replaced with 'S2'
+  ```
 
 **NOTE:** This script performs case-insensitive matching - it will find the target word regardless of whether its letters are uppercase, lowercase, or mixed.
 
