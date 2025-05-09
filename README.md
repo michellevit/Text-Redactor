@@ -32,7 +32,7 @@ cd redactor
   # 'SECRET2' or 'secret2' or 'sEcRET2' will be replaced with 'S2'
   ```
 
-**NOTE:** This script performs case-insensitive matching - it will find the target word regardless of whether its letters are uppercase, lowercase, or mixed.
+**Note:** This script performs case-insensitive matching - it will find the target word regardless of whether its letters are uppercase, lowercase, or mixed.
 
 #### 4. Prepare your input file
 
